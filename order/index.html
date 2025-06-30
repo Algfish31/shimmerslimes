@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Shimmer Slimes Edmonton</title>
+    <!-- Add Firebase SDKs (Firebase v9 modular) -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"></script>
+  </head>
+  <body>
+    <div>
+      <header>
+        <ul class="navbar">
+          <!-- Left Side -->
+          <li><a href="/">Home</a></li>
+          <li><a href="/slimes/">Slimes</a></li>
+          <li><a href="/charms/">Charms</a></li>
+          <li><a href="/schedule/">Schedule</a></li>
+  
+          <!-- Right Side -->
+          <li style="float: right;"><a href="/our-socials/">Our Socials</a></li>
+          <li class="active" style="float:right;"><a href="">Order</a></li>
+        </ul>
+      </header>
+      <div style="padding-left: 15px;">
+        <h1>ORDER YOUR SLIME</h1>
+
+        <p>
+          In this section, please write your name, and describe your order with your wanted slime and charms.
+          <br>
+          You may also write that you want to get a pre-made slime, which is chosen from our <a href="/slimes/">slimes page</a>
+          <br>
+          You can pick up your slime when we have our next booth open. Our availability will be shown on the <a href="/schedule/">schedule page</a>.
+        </p>
+
+        <form id="messageForm">
+            <textarea id="message" placeholder="Write your order" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <script type="module" src="order.js"></script> <!-- Your custom JS file -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -43,7 +43,7 @@ li a:hover {
 
 footer {
   padding: 20px; /* Increased padding for better spacing */
-  background-color: #103f6e; /* Retained your original color */
+  background-color: purple; /* Retained your original color */
   color: white;
 }
 
@@ -100,7 +100,7 @@ input {
 
 button {
   font-family: "Agdasima";
-  background-color: #3d6a97;
+  background-color: purple;
   height: 30px;
   width: 100px;
   border: none;
@@ -109,7 +109,7 @@ button {
 }
 
 button:hover {
-  background-color: navy;
+  background-color: purple;
   transition: background-color 0.3s;
 }
 
