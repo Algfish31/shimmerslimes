@@ -1,9 +1,23 @@
 /* This CSS file is for every single main page */
 
+@font-face {
+  font-family: "Title";
+  src: url("/font-title.ttf");
+}
+
+@font-face {
+  font-family: "Text";
+  src: url("/font-text.ttf");
+}
+
 body {
   background-color: pink;
-  font-family: cursive;
+  font-family: "Text";
   margin: 0
+}
+
+h1, h2 {
+  font-family: "Title";
 }
 
 .navbar {
@@ -89,7 +103,7 @@ footer {
 }
 
 input {
-  font-family: "Agdasima";
+  font-family: "Text";
   background-color: #3d6a97;
   height: 30px;
   width: 200px;
@@ -99,7 +113,7 @@ input {
 }
 
 button {
-  font-family: "Agdasima";
+  font-family: "Text";
   background-color: purple;
   height: 30px;
   width: 100px;
